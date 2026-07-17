@@ -8,7 +8,7 @@ import {
   Headset,
 } from "lucide-react";
 import { motion } from "framer-motion";
-import useAuth from "../../hooks/useAuth";
+import useAuth from "../../hooks/useAuth.js";
 
 const Sidebar = () => {
   const navigate = useNavigate();

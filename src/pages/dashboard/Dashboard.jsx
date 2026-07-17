@@ -2,9 +2,9 @@ import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { Ticket, CircleCheckBig, Clock3, AlertCircle } from "lucide-react";
 
-import api from "../../services/api";
-import StatCard from "../../components/ui/StatCard";
-import TicketTable from "../../components/ui/TicketTable";
+import api from "../../services/api.js";
+import StatCard from "../../components/ui/StatCard.jsx";
+import TicketTable from "../../components/ui/TicketTable.jsx";
 
 const Dashboard = () => {
   const [tickets, setTickets] = useState([]);

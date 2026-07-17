@@ -1,6 +1,6 @@
 import { Bell, Menu } from "lucide-react";
 import { motion } from "framer-motion";
-import useAuth from "../../hooks/useAuth";
+import useAuth from "../../hooks/useAuth.js";
 
 const Navbar = ({ onMenuClick }) => {
   const { user } = useAuth();

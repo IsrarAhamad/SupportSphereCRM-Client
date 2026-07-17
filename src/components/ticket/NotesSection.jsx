@@ -2,9 +2,9 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 import toast from "react-hot-toast";
 
-import api from "../../services/api";
-import TextArea from "../ui/TextArea";
-import Button from "../ui/Button";
+import api from "../../services/api.js";
+import TextArea from "../ui/TextArea.jsx";
+import Button from "../ui/Button.jsx";
 
 const NotesSection = ({ ticketId, notes = [], refreshTicket }) => {
   const [note, setNote] = useState("");

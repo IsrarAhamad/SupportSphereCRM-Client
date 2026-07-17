@@ -1,7 +1,7 @@
 import { useState } from "react";
-import Navbar from "./Navbar";
-import Sidebar from "./Sidebar";
-import MobileSidebar from "./MobileSidebar";
+import Navbar from "./Navbar.jsx";
+import Sidebar from "./Sidebar.jsx";
+import MobileSidebar from "./MobileSidebar.jsx";
 
 const Layout = ({ children }) => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);

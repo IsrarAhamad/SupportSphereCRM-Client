@@ -8,7 +8,7 @@ import {
   X,
   LogOut,
 } from "lucide-react";
-import useAuth from "../../hooks/useAuth";
+import useAuth from "../../hooks/useAuth.js";
 
 const MobileSidebar = ({ isOpen, onClose }) => {
   const { user, logout } = useAuth();

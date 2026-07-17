@@ -1,9 +1,8 @@
 import { useState } from "react";
-import { motion } from "framer-motion";
 import toast from "react-hot-toast";
-import api from "../../services/api";
-import StatusBadge from "../ui/StatusBadge";
-import Button from "../ui/Button";
+import api from "../../services/api.js";
+import StatusBadge from "../ui/StatusBadge.jsx";
+import Button from "../ui/Button.jsx";
 
 const TicketStatus = ({ ticket, onStatusUpdate }) => {
   const [status, setStatus] = useState(ticket.status);

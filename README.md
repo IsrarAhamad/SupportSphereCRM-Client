@@ -1,16 +1,91 @@
-# React + Vite
+# 🚀 SupportSphere CRM - Client
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive CRM frontend built with React, Vite, and Tailwind CSS. The application allows users to manage support tickets with authentication, dashboard analytics, ticket management, and real-time UI updates.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- User Authentication (Login & Register)
+- JWT Authentication
+- Responsive Dashboard
+- Ticket Management
+- Create, View, Update & Delete Tickets
+- Search & Filter Tickets
+- Add Notes to Tickets
+- Ticket Status Management
+- Beautiful Responsive UI
+- Toast Notifications
+- Framer Motion Animations
+- 404 Page
+- Protected Routes
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React.js
+- Vite
+- Tailwind CSS
+- React Router DOM
+- Axios
+- Framer Motion
+- React Hot Toast
+- Lucide React
 
-## Expanding the ESLint configuration
+## 📂 Folder Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```
+src/
+│── assets/
+│── components/
+│── context/
+│── pages/
+│── services/
+│── App.jsx
+│── main.jsx
+```
+
+## ⚙️ Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/YOUR_USERNAME/SupportSphereCRM-Client.git
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Create a `.env` file
+
+```env
+VITE_API_URL=http://localhost:5000/api
+```
+
+Run the development server
+
+```bash
+npm run dev
+```
+
+## 📸 Screenshots
+
+Add screenshots here after deployment.
+
+## 🌐 Live Demo
+
+Frontend:
+```
+https://your-vercel-url.vercel.app
+```
+
+Backend API:
+```
+https://your-render-url.onrender.com
+```
+
+## 👨‍💻 Author
+
+**Israr Ahamad**
+
+GitHub: https://github.com/Israr8957

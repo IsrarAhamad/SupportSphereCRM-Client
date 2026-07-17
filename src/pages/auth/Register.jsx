@@ -11,10 +11,10 @@ import {
 } from "lucide-react";
 import toast from "react-hot-toast";
 
-import Input from "../../components/ui/Input";
-import Button from "../../components/ui/Button";
-import api from "../../services/api";
-import useAuth from "../../hooks/useAuth";
+import Input from "../../components/ui/Input.jsx";
+import Button from "../../components/ui/Button.jsx";
+import api from "../../services/api.js";
+import useAuth from "../../hooks/useAuth.js";
 
 const Register = () => {
   const navigate = useNavigate();
